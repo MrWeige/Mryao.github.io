@@ -5,12 +5,16 @@
   
   <title>Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
+  <meta name="description" content="前端题目题1：alert(1&amp;amp;&amp;amp;2)的结果？答：alert(1&amp;amp;&amp;amp;2)的输出结果2.只要“&amp;amp;&amp;amp;”前面是false,无论“&amp;amp;&amp;amp;”后面是true还是false，结果都将返“&amp;amp;&amp;amp;”前面的值。只要“&amp;amp;&amp;amp;”前面是true,无论“&amp;amp;&amp;amp;”后面是true还是false，结果都将返“&amp;amp;&amp;amp;”">
+<meta property="og:type" content="article">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/2017/04/03/前端面试题目及答案/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="前端题目题1：alert(1&amp;amp;&amp;amp;2)的结果？答：alert(1&amp;amp;&amp;amp;2)的输出结果2.只要“&amp;amp;&amp;amp;”前面是false,无论“&amp;amp;&amp;amp;”后面是true还是false，结果都将返“&amp;amp;&amp;amp;”前面的值。只要“&amp;amp;&amp;amp;”前面是true,无论“&amp;amp;&amp;amp;”后面是true还是false，结果都将返“&amp;amp;&amp;amp;”">
+<meta property="og:updated_time" content="2017-03-26T07:26:34.552Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo">
+<meta name="twitter:description" content="前端题目题1：alert(1&amp;amp;&amp;amp;2)的结果？答：alert(1&amp;amp;&amp;amp;2)的输出结果2.只要“&amp;amp;&amp;amp;”前面是false,无论“&amp;amp;&amp;amp;”后面是true还是false，结果都将返“&amp;amp;&amp;amp;”前面的值。只要“&amp;amp;&amp;amp;”前面是true,无论“&amp;amp;&amp;amp;”后面是true还是false，结果都将返“&amp;amp;&amp;amp;”">
   
     <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -59,9 +63,7 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-    <article id="post-前端面试题目及答案" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-前端面试题目及答案" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2017/04/03/前端面试题目及答案/" class="article-date">
   <time datetime="2017-04-03T12:40:35.766Z" itemprop="datePublished">2017-04-03</time>
@@ -84,82 +86,19 @@
     </footer>
   </div>
   
-</article>
-
-
+    
+<nav id="article-nav">
   
-    <article id="post-学习Promise总结" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/04/03/学习Promise总结/" class="article-date">
-  <time datetime="2017-04-03T10:32:24.765Z" itemprop="datePublished">2017-04-03</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="学习Promise的感想"><a href="#学习Promise的感想" class="headerlink" title="学习Promise的感想"></a>学习Promise的感想</h2><p>一开始学习Promise时，总感觉很难，但是慢慢地熟悉了之后，觉得可以接受。Promise是一个对象，这个对象有两个状态，一个是成功(resolve)状态，另一个是失败状态(reject),通过判断Promise状态，传递信息从而执行成功或失败的操作。简单理解是一个判断成功或者失败，然后执行对应状态的程序 对象。<br>每次使用Promise不要忘了 <strong>new</strong>一个新的Promise对象。<br>使用Promise 操作如下：<br>先设置一个函数由于存放新建的Promise对象,并在函数里传入参数<br>    function PromiseObject(url){<br>        return new Promise(function(resolve,reject){<br>            把之前的回调函数放入<br>            把 resolve(),reject()分别把函数需要替换的部分进行替<br>        })<br>}<br>调用Promise：<br>      PromiseObject(url)<br>      .then(function(){<br>      return        PromiseObject(url2)<br>      })<br>      .then(function(){<br>      return        PromiseObject(url2)<br>      })<br>      .then(function(){<br>      return        PromiseObject(url2)<br>      })<br>      ……<br>      Promise.all([])                    可以实现多个Promise进行同时异步获取其中pages 获取的所有信息<br>              .then(function(pages){ })                                  </p>
+  
+    <a href="/2017/04/03/学习Promise总结/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title"></div>
+    </a>
+  
+</nav>
 
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/03/学习Promise总结/" data-id="cj123tikf0002u8er10ymlqcv" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
   
 </article>
-
-
-  
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
-  <div class="article-meta">
-    <a href="/2017/04/03/hello-world/" class="article-date">
-  <time datetime="2017-04-03T10:03:24.589Z" itemprop="datePublished">2017-04-03</time>
-</a>
-    
-  </div>
-  <div class="article-inner">
-    
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2017/04/03/hello-world/">Hello World</a>
-    </h1>
-  
-
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-
-      
-    </div>
-    <footer class="article-footer">
-      <a data-url="http://yoursite.com/2017/04/03/hello-world/" data-id="cj123tijz0000u8erbbon5dia" class="article-share-link">Share</a>
-      
-      
-    </footer>
-  </div>
-  
-</article>
-
-
-  
 
 </section>
         
